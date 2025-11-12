@@ -9,7 +9,7 @@ BASE = os.path.dirname(os.path.abspath(__file__))
 MODEL_PATH = os.path.join(BASE, "top20_lasso_pipeline.pkl")
 FEAT_PATH  = os.path.join(BASE, "top20_features.txt")
 
-st.set_page_config(page_title="Willingness to HLMC", page_icon="🧬", layout="centered")
+st.set_page_config(page_title="Willingness to attend HLMC", page_icon="🧬", layout="centered")
 st.markdown(
     "<h2 style='text-align:center'>Willingness to HLMC</h2>"
     "<p style='text-align:center;color:#666'>Answer each question (Yes / No). Click <b>Next</b> to continue; press <b>Calculate Probability</b> on the last question.</p>",
