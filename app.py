@@ -11,7 +11,7 @@ FEAT_PATH  = os.path.join(BASE, "top20_features.txt")
 
 st.set_page_config(page_title="Willingness to attend HLMC", page_icon="🧬", layout="centered")
 st.markdown(
-    "<h2 style='text-align:center'>Willingness to HLMC</h2>"
+    "<h2 style='text-align:center'>Willingness to attend HLMC</h2>"
     "<p style='text-align:center;color:#666'>Answer each question (Yes / No). Click <b>Next</b> to continue; press <b>Calculate Probability</b> on the last question.</p>",
     unsafe_allow_html=True
 )
